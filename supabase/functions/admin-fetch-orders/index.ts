@@ -5,6 +5,7 @@ import { verify } from "https://deno.land/x/djwt@v3.0.2/mod.ts";
 // Allowed origins for CORS - restrict to your domains
 const ALLOWED_ORIGINS = [
   Deno.env.get("FRONTEND_URL"),
+  "https://reliable-jalebi-8dbeb7.netlify.app",
   "https://4050c612-9249-4fb6-aea6-d095216cd0ef.lovableproject.com",
   "https://id-preview--4050c612-9249-4fb6-aea6-d095216cd0ef.lovable.app",
   "https://nafloniyaburger.lovable.app",
