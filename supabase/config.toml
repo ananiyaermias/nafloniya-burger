@@ -1,0 +1,16 @@
+project_id = "pfokkubsmkndguwuwobs"
+
+[functions.verify-admin]
+verify_jwt = false
+
+[functions.admin-fetch-orders]
+verify_jwt = false
+
+[functions.admin-update-order]
+verify_jwt = false
+
+[functions.submit-order]
+verify_jwt = false
+
+[functions.admin-manage-burgers]
+verify_jwt = false
